@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Southern_Ring_Nebula_%28NIRCam_Image%29.png/250px-Southern_Ring_Nebula_%28NIRCam_Image%29.png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 30px;
+    width: auto; 
+    max-width: 250px; 
+    color: white;
+    text-align: center; 
+    border: 7px solid rgb(248, 140, 77);
+    position: absolute;
+    left: 10%; 
+}   
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+}
