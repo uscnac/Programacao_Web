@@ -16,7 +16,7 @@ class EnemyShip {
   }
 }
 
-const enemyShips = []
+export const enemyShips = []
 
 export const createRandomEnemyShip = () => {
   if (Math.random() < PROB_ENEMY_SHIP) enemyShips.push(new EnemyShip())
