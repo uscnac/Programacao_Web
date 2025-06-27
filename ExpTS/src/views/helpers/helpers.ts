@@ -1,16 +1,6 @@
-import { DiscType, TechType } from "./helpersTypes";
+import { Prof } from './helpersTypes';
 
-export function discList(discs: DiscType[]) {
-    return `<ul>${(discs
-        .map((d) => `<li>${d.nome} - ${d.cg}</li>`))
-        .join("")}</ul>`
-}
-
-export function techList(techs: TechType[]) {
-    return `<ul>${(techs
-        .map((t) => {
-            if(t.poweredByNodejs) return `<li>${t.name} - ${t.type}</li>`
-            else return ''
-        }))
-        .join("")}</ul>`
+export function listProfs(profs: Prof[]) {
+    const list = profs.map((p)=>`<li>${p.nome}-${p.sala}</li>`);
+    return `<ul>${list.join('')}</ul>`;
 }

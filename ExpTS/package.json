@@ -1,37 +1,31 @@
 {
-  "name": "express_aula",
+  "name": "ts1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch src --ext ts,js,json --exec 'ts-node src/index.ts'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass public/sass/main.scss public/css/main.css --watch",
-    "prisma-create": "sudo ./tools/services-up.sh",
-    "prisma": "sudo ./tools/services-start.sh"
+    "start": "nodemon src/index.ts",
+    "sass": "sass public/scss/main.scss public/css/main.css --watch",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "bootstrap-icons": "^1.13.1",
+    "cookie-parser": "^1.4.7",
     "dotenv": "^16.5.0",
-    "ejs": "^3.1.10",
     "envalid": "^8.0.0",
     "express": "^5.1.0",
     "express-handlebars": "^8.0.3",
-    "fs": "^0.0.1-security",
     "lorem-ipsum": "^2.0.8",
-    "morgan": "^1.10.0",
-    "nodemon": "^3.1.10",
-    "sass": "^1.89.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "sass": "^1.89.1"
   },
   "devDependencies": {
-    "@prisma/client": "^6.9.0",
-    "@types/express": "^5.0.2",
-    "@types/morgan": "^1.9.9",
-    "@types/node": "^22.15.21",
+    "@types/cookie-parser": "^1.4.9",
+    "nodemon": "^3.1.10",
     "prisma": "^6.9.0"
   }
 }

@@ -1,13 +1,18 @@
-{{#if mostrar_mensagem}}
-    <h1>{{mensagem}}</h1>
-{{else}}
-    <h1>Não há mensagem</h1>
-{{/if}}
-
-<ul>
-{{#each profs}}
-    <li>{{nome}} - {{sala}}</li>
-{{/each}}
-</ul>
-
-{{{discList discs}}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <p>Alguns professores do Icomp/UFAM</p>
+    <ul>
+        {{#each profes}}
+        <li>{{nome}} - sala {{sala}}</li>
+        {{/each}}
+    </ul>
+    </div>
+</body>
+</html>
