@@ -33,7 +33,8 @@ node2: Refaça o exercício node1 usando ES modules.
 node3: FAplicação que é disponibilizada através de um servidor Node.js, onde ousuário informa um número x e a aplicação imprime x parágrafos Lorem Ipsum.
 
 
-**Trabalhos**
+**Trabalho**
+
 game:
 aplicação Web que permitirá aos usuários jogar o jogo Space Shooter, previamente desenvolvido no primeiro trabalho prático. A aplicação deverá ser implementada utilizando o framework Express com TypeScript, em conjunto com o ORM Prisma para acesso ao banco de dados. A aplicação deve permitir que qualquer usuário possa criar uma conta, realizar login e acessar a página onde será possível jogar o Space Shooter. Além disso, deverá ser implementada uma página de ranking, que exibirá a lista dos usuários com as maiores pontuações no jogo.
 
