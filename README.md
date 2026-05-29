@@ -3,10 +3,10 @@
 Repositorio criando para disciplina de Programação Web (ICC007)
 
 **Exercicios:**
+
 HTML: criar uma página HTML
 
 CSS1, CSS2, CSS3: Codifique uma página html/css
-
 
 JS1: Faça um página contendo a tabela de multiplicação dos números 1 a 10.
 
