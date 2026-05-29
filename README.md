@@ -5,7 +5,6 @@ Repositorio criando para disciplina de Programação Web (ICC007)
 **Exercicios:**
 HTML: criar uma página HTML
 
-
 CSS1, CSS2, CSS3: Codifique uma página html/css
 
 
